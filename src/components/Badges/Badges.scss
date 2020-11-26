@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Kanit";
+    src: url(../../assets/fonts/Kanit-Regular.ttf);
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 5px;
+    border-radius: 16px;
+    min-width: 30px;
+    height: 20px;
+    margin: 2px 4px;
+    color: #F9FAFB;
+
+    &:nth-child(1) {
+        background-color:  #FD9241;
+    }
+
+    &:nth-child(2) {
+        background-color:  #5BC95B;
+    }
+
+    &:nth-child(3) {
+        background-color:  #73FD73;
+        color: #19232C;
+    }
+    
+    .badge-content {
+        font-family: "Kanit";
+        font-weight: 500;
+        font-size: 12px;
+    }
+}
+

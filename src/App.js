@@ -1,11 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
-import JobCard from './components/jobCard/jobCard';
 
 function App() {
   return (
     <div className="App">
-      <JobCard Title = "Assistente de Criação" jobImage = "https://picsum.photos/100/100" jobDescription = 'Empresa XPTO procura assistente de criação para atuar em agência.'/>
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
